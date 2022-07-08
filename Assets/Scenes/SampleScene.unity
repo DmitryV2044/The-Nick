@@ -2472,31 +2472,6 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
---- !u!1 &1750711606 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7539744168048168059, guid: fb9f7af436bc97843b54f5a432adcfbb, type: 3}
-  m_PrefabInstance: {fileID: 7539744168496783250}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1750711607
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750711606}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23a4275a988b76a4db5c426b8c7312df, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2037248116
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,10 +2589,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7154981126806771456, guid: fb9f7af436bc97843b54f5a432adcfbb, type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7539744168048168057, guid: fb9f7af436bc97843b54f5a432adcfbb, type: 3}
       propertyPath: m_RootOrder
       value: 1
